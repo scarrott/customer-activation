@@ -92,7 +92,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <netzarbeiter_customeractivation>Netzarbeiter_CustomerActivation</netzarbeiter_customeractivation>
+                        <netzarbeiter_customeractivation after="Mage_Adminhtml">Netzarbeiter_CustomerActivation</netzarbeiter_customeractivation>
                     </modules>
                 </args>
             </adminhtml>
